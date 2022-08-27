@@ -6,7 +6,7 @@ const pages = [1,2,3,4,5, 6]
 export function Pagination(){
   return (
     <Stack
-      direction='row'
+      direction={['column', 'row']}
       mt='8'
       justify='space-between'
       align='center'
